@@ -85,21 +85,31 @@ Quiz
 
 Progress
 
-🚀 Getting Started (Local Setup)
-Prerequisites
-Node.js
 
-Docker
+### Folder Explanation
 
-PostgreSQL
+- **app/**  
+  Contains all route‑based files such as pages, layouts, and API routes. This follows the Next.js App Router pattern for better scalability.
 
-Redis
+- **components/**  
+  Stores reusable UI components (buttons, cards, forms, etc.) to keep the UI consistent and maintainable.
 
-Steps
-git clone https://github.com/your-org/RuralEdu.git
-cd RuralEdu
+- **lib/**  
+  Includes utility functions, helper methods, and shared configurations such as database or API helpers.
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
+
+### Installation & Run
+```bash
 npm install
 npm run dev
+
 For Docker:
 
 docker-compose up
