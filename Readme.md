@@ -19,11 +19,11 @@ Progress saved locally and synced later
 Fast loading on low‑bandwidth networks
 
 👨‍🏫 Teacher / Admin
-Create and manage lessons & quizzes
+Create and maintain lessons and quizzes
 
-Track student progress
+Monitor student learning progress
 
-Lightweight dashboard
+Use a lightweight, easy-to-use dashboard
 
 🧠 Offline‑First Approach
 Service Workers for caching lessons & assets
