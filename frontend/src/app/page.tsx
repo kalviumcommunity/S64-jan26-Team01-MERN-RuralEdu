@@ -73,9 +73,9 @@ export default function Home() {
           <div className="w-full max-w-md xl:mx-0">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center xl:text-left">Start learning today by signing up!</h2>
             <div className="flex flex-col gap-4 mb-2">
-              <button className="w-full bg-[#eaf3fa] text-[#18659e] text-lg font-semibold rounded-md py-3 px-4 shadow border hover:bg-[#18659e] hover:text-white transition">
+              <a href="/home" className="w-full bg-[#eaf3fa] text-[#18659e] text-lg font-semibold rounded-md py-3 px-4 shadow border hover:bg-[#18659e] hover:text-white transition text-center">
                 I'm a learner
-              </button>
+              </a>
               <button className="w-full bg-[#eaf3fa] text-[#18659e] text-lg font-semibold rounded-md py-3 px-4 shadow border hover:bg-[#18659e] hover:text-white transition">
                 I'm a teacher
               </button>
